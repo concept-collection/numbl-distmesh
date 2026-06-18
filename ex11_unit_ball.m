@@ -1,4 +1,4 @@
-% ex11_mesh_nd.m — Uniform tetrahedral mesh of the 3-D unit ball (distmeshnd).
+% ex11_unit_ball.m — Uniform tetrahedral mesh of the 3-D unit ball (distmeshnd).
 %
 % distmeshnd is the general N-D mesh generator; here it fills the solid unit
 % ball (signed distance sqrt(sum(p.^2,2))-1) with a uniform mesh at edge
