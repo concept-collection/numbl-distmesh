@@ -37,13 +37,16 @@ which fetches DistMesh on first use.
 - [`ex09_torus.m`](ex09_torus.m) — uniform mesh on a torus.
 - [`ex10_ellipsoid.m`](ex10_ellipsoid.m) — uniform mesh on an ellipsoid.
 
+## Volume meshes (`distmeshnd`)
+
+- [`ex11_unit_ball.m`](ex11_unit_ball.m) — uniform tetrahedral mesh filling the
+  solid 3-D unit ball, using the general N-D generator.
+
 ## Notes
 
 All examples animate as the mesh relaxes; drag to rotate the surface meshes.
-`ex06_naca_airfoil.m` is by far the heaviest and can take up to a minute or so
-in the browser. The geometries
-use the helper distance functions `dcircle`, `drectangle`, `dpoly`, `dsphere`,
-`ddiff`, ... that ship with DistMesh.
+The geometries use the helper distance functions `dcircle`, `drectangle`,
+`dpoly`, `dsphere`, `ddiff`, ... that ship with DistMesh.
 
 ## Reference
 
